@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ZEUS GHOD">
+    <meta name="description" content="Betway offers you the best way of unlocking an a account.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Unlock</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+form{
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 2px;
+}
+
+input{
+    outline-color: bisque;
+    width: 300px;
+    margin: 7px;
+    padding: 6px;
+}
+.prg{
+color: red;
+}
+
+.ipt{
+    border-radius: 6px;
+    border: 1px dashed black;
+}
+
+.Rsn{
+    height: 90px;
+}
+
+.btn{
+    margin: 6px;
+    width: 20%;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: yellowgreen;
+}
+
+.btn:hover{
+    background-color: rgb(204, 150, 255);
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn::after{
+    background-color: green;
+    color: aqua;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+    
+        <img src="img/images.png" alt="X">
+        <p><b>BETWAY</b></p>
+        
+        <h1>ACCOUNT UNLOCK</h1>
+        <br>
+        <p>STEPS TO UNLOCK</p>
+        <br>
+
+        <div>
+            <div>
+               &nbsp; <label for="FULL-NAME">Enter Full Name:</label>
+            </div>
+        <input type="text" name="FULL-NAME" id="FULL-NAME" required>
+        </div>
+        
+        <div>
+            <div>
+               &nbsp; <label for="ID-NUMBER">id Number:</label>
+            </div>
+            <input type="number" name="ID-NUMBER" id="ID-NUMBER" required>
+            </div>
+
+        <div>
+            <div>
+              &nbsp;  <label for="Mobile-Number">Mobile Number:</label>
+            </div>
+        <input type="number" name="Mobile-Number" id="Mobile-Number" required>
+        </div>
+        
+        <div>
+            <div>
+           &nbsp; <label for="reason">Tell Us Why Your Account Is Locked:</label>
+            </div>
+        <input class="Rsn" type="text" name="REASON" id="REASON" required>
+        </div>
+
+        <div class="ipt">
+            <p class="prg">!upload id Documents(front & back)<br>
+                and a selfie holding an id card/book!</p>
+        <input type="file" name="picture" id="picture" capture="user" multiple accept="image/*" required>
+        </div>
+
+        <button class="btn">SUBMIT</button>
+
+        <p>Documents verification can take up to 24 to 72hours</p>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
